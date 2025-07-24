@@ -1,4 +1,4 @@
-from fastapi import FastAPI, APIRouter, Depends
+from fastapi import APIRouter, Depends
 import os
 from src.helpers.config import get_settings, Settings
 
